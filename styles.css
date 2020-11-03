@@ -68,24 +68,3 @@ i {
     transform: translateX(3px);
   }
 }
-
-.modal-contenido {
-  width: 300px;
-  margin: 4% auto;
-  position: relative;
-}
-.modal {
-  background-color: rgba(0, 0, 0, 0.315);
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 1s;
-}
-#miModal:target {
-  opacity: 1;
-  pointer-events: auto;
-}
